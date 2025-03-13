@@ -211,7 +211,7 @@ button[type="submit"]:hover {
 }
 
 .header-banner h1 {
-  font-size: 50px;
+  font-size: 40px;
   color: #f8f3f3;
 }
 
@@ -363,9 +363,9 @@ button[type="submit"]:hover {
   margin: 5px auto 30px auto;
 }
 
-.phegon-color {
+.tanjid-color {
   color: #FF007F;
-  color: #FF7F50;
+  color: #d8c40f;
 }
 
 .service-section {
@@ -686,12 +686,16 @@ button:hover {
   background-color: rgb(34, 80, 128);
 }
 
-.booking-details {
-  margin-top: 20px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  padding: 10px;
+.booking-details img {
+  width: 100%; 
+  max-width: 600px;
+  height: auto; 
+  object-fit: cover; 
+  border-radius: 10px; 
+  display: block;
+  margin: 10px auto;
 }
+
 
 p {
   margin: 5px 0;
